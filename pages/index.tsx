@@ -90,7 +90,7 @@ export default function Home() {
                   <Carousel.Caption>
                     <h3>
                     If you can walk away from a landing,
-                    it's a good landing. If you use the airplane the next day, it's an outstanding landing.
+                    its a good landing. If you use the airplane the next day, its an outstanding landing.
                     </h3>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -106,7 +106,7 @@ export default function Home() {
                   <Carousel.Caption>
                     
                     <h3>
-                    Rules are made for people who aren't willing to make up their own.
+                    Rules are made for people who arent willing to make up their own.
                     </h3>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -168,7 +168,7 @@ export default function Home() {
               <ul>
                 <li className="mb-3">
                   <data value="21053">
-                  Since its inception, Bombardier's focus has always been on helping the world move efficiently and quickly through highly reliable transportation products, whether on the ground or in the air.
+                  Since its inception, Bombardiers focus has always been on helping the world move efficiently and quickly through highly reliable transportation products, whether on the ground or in the air.
                   </data>
                 </li>
                 <li className="mb-3">
