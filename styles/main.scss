@@ -1,0 +1,21 @@
+/*================================
+import components
+==================================*/
+@import "./components/navbar";
+@import "./components/news-portal";
+@import "./components/image-gallery";
+@import "./components/footer";
+
+/*================================
+import pages
+==================================*/
+@import "./pages/Home.module.scss";
+@import "./pages/Albums.module.scss";
+@import "./pages/About.module.scss";
+@import "./pages/Election.module.scss";
+@import "./pages/News.module.scss";
+@import "./pages/Login.Module.scss";
+
+// override css
+@import "./override";
+@import "./components/overrride-components";

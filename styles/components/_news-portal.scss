@@ -1,0 +1,41 @@
+.news-portal {
+  h4 {
+    font-size: 20px;
+    color: #222;
+  }
+  .author-info {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #222;
+  }
+  p {
+    font-size: 15px;
+    color: #222;
+  }
+  a{
+    color: #222;
+    text-decoration: none;
+  }
+  .read-more {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 3rem;
+    padding: 0.1rem 1rem;
+    font-size: 14px;
+    color: #222;
+
+  }
+}
+.read-more-link {
+  position: relative;
+}
+.read-more-link:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #ebebeb;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}

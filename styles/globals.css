@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-logo {
+  object-fit: contain;
+}
+
+.message-profile-img {
+  border: 4px solid #ddd;
+  padding: 2px;
+}
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.section-title {
+  padding: 0px 0 8px;
+  position: relative;
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  bottom: 16px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238, 111, 87, 0.5);
+  z-index: -1;
+}
+.custom-table .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.dropup .caret{
+  display: none;
+}
+#pageDropDown .caret{
+  display: none;
+}

@@ -1,0 +1,12 @@
+// override css for react-table-next
+.custom-table{
+    .filter-label{
+        margin-left: 15px;
+        span{
+            display: none;
+        }
+        .form-control{
+            height: 30px;
+        }
+    }
+}
